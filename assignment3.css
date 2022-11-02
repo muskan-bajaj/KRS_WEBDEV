@@ -1,0 +1,301 @@
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav-bar{
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.811);
+}
+
+.navigate{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.about-us, .menu, .capability, .search-menu{
+    padding-top: 3.5%;
+}
+
+.logo{
+    width: 20%;
+}
+.logo img{
+    width: 100%;
+}
+
+.cart{
+    margin-right: 2%;
+    margin-top: 0.8%;
+}
+
+.cart-button{
+    border-radius: 50px;
+    padding: 12px 24px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+    border: 2px solid #60BA62;
+}
+
+.cart-button:hover{
+    background-color: #60BA62;
+    color: white;
+}
+
+.body1{
+    background-image: url("homebkground.jpg");
+    height: 610px;
+    background-position: center;
+}
+
+.text-heading-h1{
+    margin: 0;
+    font-size: 450%;
+    margin-left: 3.5%;
+    padding-top: 7%;
+    margin-right: 60%;
+}
+
+.colored{
+    color: #60BA62;
+}
+
+.text-subtitle{
+    margin-left: 3.5%;
+    margin-right: 60%;
+    font-size: 115%;
+}
+
+.learn-more{
+    margin-left: 3.5%;
+}
+
+.learn-more-button{
+    padding: 1% 5%;
+    font-size: 100%;
+    background-color: #60BA62;
+    color: white;
+    border-style: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.learn-more-button:hover,.compare-button:hover,.order-button-1:hover{
+    background-color: #8fe590;
+    color: white;
+}
+
+.page-part2{
+    margin-top: 5%;
+}
+
+.text-heading-2{
+    margin-left: 42%;
+    font-size: 120%;
+}
+
+.working-details{
+    display: flex;
+}
+
+.fav,.deliver,.eat{
+    width: 33%;
+    padding: 1% 5%;
+    text-align: center;
+}
+
+.detail-heading{
+    padding-top: 15px;
+    font-size: 105%;
+    font-weight: bold;
+}
+
+.food-menu{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.food-item-img{
+    height: 60%;
+    margin-left: 10%;
+}
+
+.food-item-name{
+    margin: 5% 0% 0% 20%;
+    font-size: 105%;
+}
+
+a:active,a:visited{
+    color: black;
+}
+
+.select-program{
+    display: flex;
+    border-top: #8fe590 solid 2px;
+    background-image: url(select-program-background.jpg);
+}
+
+.left{
+    margin-left: 5%;
+}
+
+.text-heading-3{
+    font-size: 150%;
+    margin-right: 20%;
+}
+
+.weight,.result,.vegan,.compare{
+    padding: 20px 50px 20px 0;
+}
+
+.w,.r,.v,.compare-button{
+    padding: 5% 2%;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 110%;
+    color: #60BA62;
+    font-weight: 600;
+    border: 2px solid #60BA62;
+}
+
+.compare-button{
+    color: white;
+    background-color: #60BA62;
+}
+
+.cost{
+    margin-top: 5%;
+}
+
+.top{
+    display: flex;
+    justify-content: center;
+}
+
+.middle,.order{
+    display: flex;
+    justify-content: space-around;
+}
+
+label{
+    padding: 1% 0;
+    font-size: 110%;
+    font-weight: 600;
+}
+
+.program-type{
+    width: 25%;
+    margin-left: 1%;
+    padding: 1% 1%;
+    font-size: 110%;
+    font-family: 'Montserrat', sans-serif;
+    color: #60BA62;
+    font-weight: 600;
+    border: 2px solid #60BA62;
+}
+
+.test-day,.one-week,.one-month{
+    width: 10%;
+    padding: 1% 5%;
+    text-align: center;
+    margin: 4% 4% 0 4%;
+}
+
+.test-day,.one-month{
+    border: 1px solid #60BA62;
+}
+
+.one-week{
+    border: 1px solid #F7CA19;
+}
+
+.label{
+    font-weight: 500;
+}
+
+#price1, #price2, #price3{
+    font-size: 250%;
+    font-weight: bolder;
+    padding: 10% 0 1% 0;
+}
+
+#time-period1, #time-period2, #time-period3{
+    margin-bottom: 10%;
+}
+
+.meals, .calories, .diet{
+    margin-bottom: 10%;
+    width: 170%;
+    margin-left: -35%;
+}
+
+.colored-y{
+    color: #F7CA19;
+}
+
+.order-button-1,.order-button-2{
+    width: 20.2%;
+    margin-bottom: 4%;
+    padding: 1% 5%;
+    font-size: 100%;
+}
+
+.order-button-1{
+    background-color: #60BA62;
+    border: 1px solid #60BA62;
+    color: white;
+}
+
+.order-button-2{
+    background-color: #F7CA19;
+    border: 1px solid #F7CA19;
+    color: white;
+}
+
+.order-button-2:hover{
+    background-color: #edd679;
+    border: 1px solid #edd679;
+}
+
+.bottom-img{
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+.category{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.breakfast{
+    background-color: aqua;
+}
+
+.dessert{
+    background-color: brown;
+}
+
+.dinner{
+    background-color: chartreuse;
+}
+
+.meat-and-fish{
+    background-color: yellow;
+}
+
+.menu-images{
+    display: flex;
+    /* padding-left: 5%; */
+    /* margin: 1% 0; */
+    /* width: 25%; */
+    /* justify-items: space-between; */
+}
+
+.menu-labels{
+    width: 40%;
+}

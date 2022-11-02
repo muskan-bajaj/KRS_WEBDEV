@@ -1,0 +1,89 @@
+body{
+    background-color: #181818;
+    color: white;
+}
+
+img{
+    float: left;
+}
+
+.header{
+    margin-left: 8rem;
+    margin-right: 8rem;
+}
+
+.login_button{
+    background-color: #181818;
+    color: white;
+    border-color: white;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.login_button:hover{
+    background-color: white;
+    color: black;
+}
+
+.h1{
+    padding-left: 4rem;
+    padding-right: 4rem;
+    font-size: 1rem;
+}
+
+.main_txt{
+    font-size: 6rem;
+    float: left;
+    text-align: center;
+    padding-top: 4rem;
+    padding-left: 10rem;
+    padding-right:10rem ;
+}
+
+.para_txt{
+    float: left;
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 1rem;
+    padding-left: 25rem;
+    padding-right: 25rem;
+    padding-bottom: 2rem;
+}
+
+.buttons{
+    float: left;
+    padding-left: 37%;
+}
+
+.b1, .b2{
+    font-size: 1.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.b1{
+    background-color: #4452fe;
+    color: white;
+    border-color: #4452fe;
+}
+
+.b2{
+    background-color: #181818;
+    color: white;
+    border-color: white;
+}
+
+.b1:hover{
+    background-color: white;
+    border-color: white;
+    color: #4452fe;
+}
+
+.b2:hover{
+    background-color: white;
+    color: black;
+}

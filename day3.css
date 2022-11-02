@@ -1,0 +1,140 @@
+/* .c{
+    float: right;
+    background-color: aqua;
+} */
+
+/* .c1
+{
+    float: left;
+    background-color: yellow;
+}
+
+.c2
+{
+    float: left;
+    background-color: red;
+}
+
+.c3
+{
+    float: left;
+    background-color: pink;
+} 
+
+.box{
+    background-color: yellow;
+    border: 2px solid black;
+    height: 3444px;
+}
+
+.b{
+    float: left;
+    border: 2px solid red;
+    height: 150px;
+    width: 150px;
+    margin: 2px;
+    padding-left: 2px; 
+}
+
+#box1{
+    position: static;
+    
+}
+
+#box2{
+    position: relative;
+    left: 20px;
+}
+
+#box3{
+    position: absolute;
+    top: 40px;
+    left: 30px;
+}
+
+#box4{
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+}
+
+#box5{
+    position: sticky;
+    top: 0 ;
+}
+
+.c1,.c2,.c3{
+    float: inherit;
+}
+*/
+
+.flexb{
+    display: flex;
+    background-color: yellowgreen;
+    width:1000px;
+    height: 500px;
+    /* align-items: center; */
+    /* align-items: flex-end; */
+    /* align-items: flex-start; */
+    /* align-items: stretch;*/
+    /* flex: 1; for  equal */
+    /*flex-direction: row-reverse;
+    flex-direction: column;
+    flex-direction: column-reverse;
+    for direction*/
+    /* for wrap */
+    /* flex-wrap: wrap; */
+    /* flex-wrap: wrap-reverse; */
+    /* justify-content  */
+    /* justify-content: center; */
+    /* justify-content: end;  */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+}
+
+#f1{
+    background-color: lightyellow;
+    display: flex;
+    /* align-self: center;  for use on single  */
+}
+
+#f2{ 
+    background-color: lightpink;
+}
+
+#f3{
+    background-color: lightgray;
+}
+
+#f4{
+    background-color: lightblue;
+}
+
+#f5{
+    background-color: violet;
+}
+
+#f6{
+    background-color: blue;
+}
+
+#f7{
+    background-color: orange;
+}
+
+#f8{
+    background-color: red;
+}
+
+#f9{
+    background-color: green;
+} 
+
+.flexb>div{
+    /* background-color: blueviolet; */
+    margin: 5px;
+    padding: 5px;
+    width: 100px;
+    height: 100px;
+}

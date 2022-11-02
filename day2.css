@@ -1,0 +1,42 @@
+h3{
+    color:blue
+}
+input{
+    color: blue;
+}
+button{
+    background-color: brown;
+}
+input{
+   background-color: yellowgreen;
+}
+::placeholder{
+    color: brown;
+}
+div p{
+    color: blueviolet;
+}
+div>p{
+    background-color: royalblue;
+}
+p::first-line{
+    color: yellow
+}
+table{
+    color: blueviolet;
+}
+a:hover{
+color: red;
+}
+a:visited{
+    color: aquamarine;
+}
+a:active{
+    color: skyblue;
+}
+#img{
+    width: 200px;
+    margin-left: 200px;
+    float: left;
+}
+

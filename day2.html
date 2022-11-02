@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- externalcss -->
+    <link rel="stylesheet" href="day2.css">
+
+    <!-- embedded css  -->
+    <style>
+
+    h2{
+        color:aqua;
+    }
+    body{
+       color:green; background-color: black;
+    }
+    /* id is always unique */
+    #satyaa{
+        color: aqua;
+    }
+    /* class is not unique */
+    #sat{
+    color: aquamarine;
+}
+    </style>
+</head>
+
+<body>
+    <!-- lists -->
+    <!-- type of list  -->
+
+    <!-- unorder list -->
+    <ul type="circle">
+        <li>
+            satyam
+        </li>
+    </ul>
+
+    <!-- order list -->
+    <ol type="1" start="6">
+        <li>
+            MUSKAN
+        </li>
+    </ol>
+
+    <!-- nesting -->
+    <ol>
+        <li>
+            vegetable
+            <ul>
+                <li>carrot</li>
+                <li>ginger</li>
+            </ul>
+        </li>
+        <li>fruit
+            <ul>
+                <li>mango</li>
+                <li>apple of my eye</li>
+            </ul>
+        </li>
+    </ol>
+    <ul>
+        <li>
+            vegetable
+            <ol>
+                <li>carrot</li>
+                <li>ginger</li>
+            </ol>
+        </li>
+        <li>fruit
+            <ol>
+                <li>mango</li>
+                <li>apple of my eye</li>
+            </ol>
+        </li>
+    </ul>
+
+    <!-- description list -->
+    <dl>
+        <dt>KIIT</dt>
+        <dd>KIIT is noice University</dd>
+    </dl>
+
+    <!-- form element -->
+    <form >
+    <!-- fieldset is use for making a border/box of a form -->
+    <fieldset>
+        <!-- legend is use for giving heading of fieldset tag -->
+        <legend>details</legend>
+
+        <label for="name">Username</label>
+        <input type="text" id="name" placeholder="full name" required>
+        <label for="pass">Password</label>
+        <input type="password" name="" id="pass" placeholder="password" required>
+        <br>
+        <label for="R1">GENDER</label>
+        <b>male</b><input type="radio" name="R1" id="R1">
+        <b>female</b><input type="radio" name="R1" id="R1">
+        <br>
+        <label for="work">fav work</label>
+        <select name="" id="work" >
+            <option value="">coding</option>
+            <option value="" >sleeping </option>
+            <option value="" selected>shoping</option>
+        </select>
+        <br>
+        <label for="add">address</label>
+        <textarea name="add" id="add" cols="50" rows="3" placeholder="ADDRESS" required></textarea>
+        <br>
+
+        <!-- implementation of button -->
+        <input type="submit" value="submit">
+        <input type="reset" value="reset">
+
+        <!-- oneclick is use for giving a alert pop -->
+        <button type="reset" onclick="alert('hello')">reset</button>
+        <button type="submit">submit</button>
+        <button type="menu">men</button>
+        <button type="button">heee</button>
+        <br>
+
+        <!-- checkbox  is a tag is used for choose multiple choice -->
+        <label for="check">
+            checkbox
+        </label>
+        <input type="checkbox" name="r1" id="check"> coder
+        <input type="checkbox" name="r1" id="check"> web dev
+        <input type="checkbox" name="r1" id="check"> color
+        <br>
+    </fieldset>
+    </form>
+    <br>
+
+    <!-- table element -->
+    <table border="2px" bgcolor="yellow">
+    <tr bgcolor="black">
+        <th><font color="white">SATYAM </font></th>
+        <th><font color="white">VINIT </font></th>
+        <th><font color="white">MUSKAN </font></th>
+    </tr>
+    <tr>
+        <td>Noob</td>
+        <td>Pro</td>
+        <td>Beginner</td>
+        <tr>
+            <td>bhoola</td>
+            <td>bahut bhoola</td>
+            <td>choti bachi</td>
+        </tr>
+    </tr>
+    </table>
+
+    <!-- css -->
+    <!-- inline css -->
+    <h1 style="color: red ; font-family: 'Times New Roman', Times, serif; font-size: xxx-large;">satyam</h1>
+    <h2>raj</h2>
+    <h3>satyam raj </h3>
+
+    <!-- class and id -->
+    <div>
+        <h4 id="satyaa">11234</h4>
+        <h6 class="sat">raj</h6>
+        <h3>satyam raj </h3>
+        <h4 class="sat">11234</h4>
+    </div>
+
+    <!-- selector -->
+    <div>
+        <!-- parent selector -->
+        <p>
+            satyam raj   
+            <!-- child selector -->
+        </p>
+        <p>
+            MUSKAN bajaj
+        </p> 
+        <!-- all child are desendent but all desendent are not child  -->
+        <section>
+            <p>
+                VINIT
+            </p>
+        </section>
+    </div>
+
+    <!-- pseudo selector -->
+    <!-- float -->
+    <div>
+        <img src="./picture.png" alt="no img " id="img">
+        <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis, quam corrupti? Ipsam itaque architecto laborum voluptates explicabo amet, magnam sequi nisi, deleniti repellendus recusandae corrupti, necessitatibus laboriosam accusantium ullam inventore?
+        </p>
+    </div>
+
+</body>
+</html>
