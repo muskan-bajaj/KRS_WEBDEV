@@ -23,6 +23,7 @@ body{
 
 .logo{
     width: 20%;
+    margin-left: 2%;
 }
 .logo img{
     width: 100%;
@@ -129,7 +130,7 @@ body{
     font-size: 105%;
 }
 
-a:active,a:visited{
+.fi-a:active,.fi-a:visited{
     color: black;
 }
 
@@ -261,9 +262,14 @@ label{
     border: 1px solid #edd679;
 }
 
-.bottom-img{
-    width: 100%;
-    margin-bottom: 5%;
+.blank{
+    background-image: url(./video-bg.jpg);
+    height: 538px;
+}
+
+.blank-text{
+    background-color: rgba(0, 0, 0, 0.537);
+    padding-bottom: 41%;
 }
 
 .category{
@@ -273,29 +279,254 @@ label{
 }
 
 .breakfast{
-    background-color: aqua;
+    background-image: url(./breakfast.jpeg);
+    width: 21%;
 }
 
 .dessert{
-    background-color: brown;
+    background-image: url(./dessert.jpg);
+    width: 21%;
 }
 
 .dinner{
-    background-color: chartreuse;
+    background-image: url(./dinner.jpeg);
+    width: 21%;
 }
 
 .meat-and-fish{
-    background-color: yellow;
+    background-image: url(./meat-and-fish.jpg);
+    width: 21%;
 }
 
-.menu-images{
+.lunch{
+    background-image: url(./lunch.jpeg);
+    width: 21%;
+}
+
+.salad{
+    background-image: url(./salad.jpg);
+    width: 21%;
+}
+
+.soup{
+    background-image: url(./soup.jpg);
+    width: 21%;
+}
+
+.vegetarian{
+    background-image: url(./vegetarian.jpeg);
+    width: 21%;
+}
+
+.menu-images-1,.menu-images-2{
     display: flex;
-    /* padding-left: 5%; */
-    /* margin: 1% 0; */
-    /* width: 25%; */
-    /* justify-items: space-between; */
+    width: 100%;
+    justify-content: space-around;
+}
+
+.menu-images-1{
+    margin-top: 5%;
+}
+
+.menu-images-2{
+    margin-top: 3.5%;
 }
 
 .menu-labels{
-    width: 40%;
+    padding: 46.6% 0;
+    font-size: larger;
+    font-weight: bolder;
+    text-align: center;
+    color: white ;
+    background-color: rgba(0, 0, 0, 0.537);
+}
+
+.text-heading-4,.text-heading-5{
+    margin-top: 5%;
+    font-size: 140%;
+    font-weight: bold;
+}
+
+.text-heading-5{
+    margin-bottom: 2.5%;
+}
+
+.member-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.member-detail{
+    margin: 0 25% 5% 25%;
+    font-size: 100%;
+    text-align: center;
+}
+
+.member{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 15%;
+}
+
+.m-img{
+    border-radius: 100%;
+    border: 1px solid #60BA62;
+}
+
+.m-name{
+    margin: 10% 0 2.5%;
+    font-size: 120%;
+    font-weight: bold;
+}
+
+.m1,.m2,.m3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.m-position{
+    font-size: 100%;
+}
+
+.blog{
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 5%;
+    /* padding-top: 5%; */
+    background-color: rgb(235, 226, 226);
+}
+
+.text-heading-6{
+    padding: 5%;
+    font-size: 140%;
+    font-weight: bold;
+    text-align: center;
+}
+
+.blog-img,.blog-detail{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bi,.bd{ 
+    width: 350px;
+}
+
+.bd{
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 250px;
+    border-radius: 5px;
+    padding: 1% 2%;
+    position: relative;
+    top: -50px;
+    background-color: white;
+}
+
+.head{
+    font-size: 120%;
+    font-weight: bold;
+}
+
+.date,.description,.foot{
+    font-size: 90%;
+}
+
+.foot{
+    display: flex;
+    justify-content: space-between;
+}
+
+.rm,.rm:visited,.rm:active{
+    color: #60BA62;
+}
+
+.download{
+    display: flex;
+    padding: 10% 15% 5% 15%;
+}
+
+.download-text{
+    padding: 10% 0 10% 10%;
+}
+
+#app{
+    font-size: x-large;
+}
+
+.download-heading{
+    font-size: xx-large;
+}
+
+.download-detail{
+    font-size: 125%;
+}
+
+.available{
+    display: flex;
+    margin-right: 25%;
+    justify-content: space-between;
+}
+
+.f-top{
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    display: flex;
+    background-color: #60BA62;
+    justify-content: space-between;
+}
+
+.ft-left{
+    width: 20%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+
+.ftl-logo{
+    width: 100%;
+}
+
+.ft-middle{
+    display: flex;
+    width: 65%;
+    justify-content: space-around;
+    color: white;
+}
+
+.tag{
+    font-weight: bold;
+}
+
+.f-link,.f-link:visited{
+    font-weight: 500;
+    color: white;
+}
+
+.ft-right{
+    display: flex;
+    width: 15%;
+    align-items: center;
+    margin: 0 2.5% 2.5% 2.5%;
+}
+
+.facebook,.twitter,.google,.instagram,.cloud{
+    width: 25%;
+}
+
+.icon-img{
+    width: 15px;
+    height: 18px;
+    background-color: white;
+    border-radius: 50%;
+    border: 1px solid cornflowerblue;
+    padding: 10%;
+}
+
+.f-bottom{
+    background-color: #429C44;
+    padding: 1%;
+    text-align: center;
+    color: white;
 }
