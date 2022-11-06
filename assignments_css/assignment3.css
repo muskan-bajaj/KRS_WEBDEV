@@ -3,6 +3,7 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
+/* navigation bar */
 .nav-bar{
     padding-top: 10px;
     display: flex;
@@ -11,16 +12,7 @@ body{
     background-color: rgba(255, 255, 255, 0.811);
 }
 
-.navigate{
-    display: flex;
-    justify-content: space-between;
-    width: 50%;
-}
-
-.about-us, .menu, .capability, .search-menu{
-    padding-top: 3.5%;
-}
-
+/* logo: navigation bar */
 .logo{
     width: 20%;
     margin-left: 2%;
@@ -29,6 +21,19 @@ body{
     width: 100%;
 }
 
+/* menu: navigation bar */
+.navigate{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+/* component of menu bar */
+.about-us, .menu, .capability, .search-menu{
+    padding-top: 3.5%;
+}
+
+/* cart button: navigation bar */
 .cart{
     margin-right: 2%;
     margin-top: 0.8%;
@@ -47,6 +52,7 @@ body{
     color: white;
 }
 
+/* main page screen */
 .body1{
     background-image: url("homebkground.jpg");
     height: 610px;
@@ -61,6 +67,7 @@ body{
     margin-right: 60%;
 }
 
+/* colored text */
 .colored{
     color: #60BA62;
 }
@@ -71,6 +78,7 @@ body{
     font-size: 115%;
 }
 
+/* learn more button */
 .learn-more{
     margin-left: 3.5%;
 }
@@ -89,70 +97,85 @@ body{
     color: white;
 }
 
+/* how it works */
 .page-part2{
     margin-top: 5%;
 }
 
+/* text: how it works */
 .text-heading-2{
     margin-left: 42%;
     font-size: 120%;
 }
 
-.working-details{
-    display: flex;
-}
-
+/* favorite->delivery->eat */
 .fav,.deliver,.eat{
     width: 33%;
     padding: 1% 5%;
     text-align: center;
 }
 
+/* heading: how it works */
 .detail-heading{
     padding-top: 15px;
     font-size: 105%;
     font-weight: bold;
 }
 
+/* description: how it works */
+.working-details{
+    display: flex;
+}
+
+
+/* menu */
 .food-menu{
     margin-top: 5%;
     display: flex;
     justify-content: space-between;
 }
 
+/* images: menu */
 .food-item-img{
     height: 60%;
     margin-left: 10%;
 }
 
+/* name of items: menu */
 .food-item-name{
     margin: 5% 0% 0% 20%;
     font-size: 105%;
 }
 
+/* color of item name */
 .fi-a:active,.fi-a:visited{
     color: black;
 }
 
+/* program for healthy food */
 .select-program{
     display: flex;
     border-top: #8fe590 solid 2px;
     background-image: url(select-program-background.jpg);
 }
 
+/* image on left side: program */
 .left{
     margin-left: 5%;
 }
 
+/* heading on right side: program */
 .text-heading-3{
     font-size: 150%;
     margin-right: 20%;
 }
 
+/* select-options: program */
 .weight,.result,.vegan,.compare{
     padding: 20px 50px 20px 0;
 }
 
+/* option bar: select-options of program */
 .w,.r,.v,.compare-button{
     padding: 5% 2%;
     width: 100%;
@@ -163,31 +186,24 @@ body{
     border: 2px solid #60BA62;
 }
 
+/* compare program button: program */
 .compare-button{
     color: white;
     background-color: #60BA62;
 }
 
+/* cost calculation of selected program */
 .cost{
     margin-top: 5%;
 }
 
+/* select the program */
 .top{
     display: flex;
     justify-content: center;
 }
 
-.middle,.order{
-    display: flex;
-    justify-content: space-around;
-}
-
-label{
-    padding: 1% 0;
-    font-size: 110%;
-    font-weight: 600;
-}
-
+/* select-option: select program: cost */
 .program-type{
     width: 25%;
     margin-left: 1%;
@@ -199,6 +215,21 @@ label{
     border: 2px solid #60BA62;
 }
 
+/* different cost plans, order button: cost */
+.middle,.order{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* duration of program: cost */
+.label{
+    padding: 1% 0;
+    font-size: 110%;
+    font-weight: 500;
+
+}
+
+/* plans based on cost */
 .test-day,.one-week,.one-month{
     width: 10%;
     padding: 1% 5%;
@@ -206,38 +237,44 @@ label{
     margin: 4% 4% 0 4%;
 }
 
+/* border creation */
 .test-day,.one-month{
     border: 1px solid #60BA62;
 }
 
+/* border creation */
 .one-week{
     border: 1px solid #F7CA19;
 }
 
-.label{
-    font-weight: 500;
-}
-
+/* cost of selected program */
 #price1, #price2, #price3{
     font-size: 250%;
     font-weight: bolder;
     padding: 10% 0 1% 0;
 }
 
+/* /<duration> */
 #time-period1, #time-period2, #time-period3{
     margin-bottom: 10%;
 }
 
+/* description of each plan based on cost */
+/* food in breakfast lunch dinner: meal-description */
+/* amoount of calories intake: calories-description */
+/* customization: diet-description */
 .meals, .calories, .diet{
     margin-bottom: 10%;
     width: 170%;
     margin-left: -35%;
 }
 
+/* color text to yellow */
 .colored-y{
     color: #F7CA19;
 }
 
+/* order button: cost */
 .order-button-1,.order-button-2{
     width: 20.2%;
     margin-bottom: 4%;
@@ -245,12 +282,14 @@ label{
     font-size: 100%;
 }
 
+/* color of  order-button: green */
 .order-button-1{
     background-color: #60BA62;
     border: 1px solid #60BA62;
     color: white;
 }
 
+/* color of  order-button: yellow */
 .order-button-2{
     background-color: #F7CA19;
     border: 1px solid #F7CA19;
@@ -262,22 +301,26 @@ label{
     border: 1px solid #edd679;
 }
 
+/* image div */
 .blank{
     background-image: url(./video-bg.jpg);
     height: 538px;
 }
 
+/* blank text: image div */
 .blank-text{
     background-color: rgba(0, 0, 0, 0.537);
     padding-bottom: 41%;
 }
 
+/* menu by category */
 .category{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
+/* background-image for all categories */
 .breakfast{
     background-image: url(./breakfast.jpeg);
     width: 21%;
@@ -318,20 +361,24 @@ label{
     width: 21%;
 }
 
+/* categories row 1 and row 2 */
 .menu-images-1,.menu-images-2{
     display: flex;
     width: 100%;
     justify-content: space-around;
 }
 
+/* row 1: categories */
 .menu-images-1{
     margin-top: 5%;
 }
 
+/* row 2: categories */
 .menu-images-2{
     margin-top: 3.5%;
 }
 
+/* text- naming category: categories */
 .menu-labels{
     padding: 46.6% 0;
     font-size: larger;
@@ -341,63 +388,73 @@ label{
     background-color: rgba(0, 0, 0, 0.537);
 }
 
+/* menu categories, team members: heading */
 .text-heading-4,.text-heading-5{
     margin-top: 5%;
     font-size: 140%;
     font-weight: bold;
 }
 
-.text-heading-5{
-    margin-bottom: 2.5%;
-}
-
+/* team members */
 .member-text{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
+/* team members: heading */
+.text-heading-5{
+    margin-bottom: 2.5%;
+}
+
+/* details of the team */
 .member-detail{
     margin: 0 25% 5% 25%;
     font-size: 100%;
     text-align: center;
 }
 
+/* about the three members */
 .member{
     display: flex;
     justify-content: space-around;
     margin: 0 15%;
 }
 
+/* image: member */
 .m-img{
     border-radius: 100%;
     border: 1px solid #60BA62;
 }
 
+/* name of member: member */
 .m-name{
     margin: 10% 0 2.5%;
     font-size: 120%;
     font-weight: bold;
 }
 
+/* member 1,member 2,member 3 */
 .m1,.m2,.m3{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
+/* designation of member */
 .m-position{
     font-size: 100%;
 }
 
+/* personal blog */
 .blog{
     padding-left: 5%;
     padding-right: 5%;
     margin-top: 5%;
-    /* padding-top: 5%; */
     background-color: rgb(235, 226, 226);
 }
 
+/* heading: blog */
 .text-heading-6{
     padding: 5%;
     font-size: 140%;
@@ -405,11 +462,13 @@ label{
     text-align: center;
 }
 
+/* blog image, blog description */
 .blog-img,.blog-detail{
     display: flex;
     justify-content: space-between;
 }
 
+/* individual image tag and description tag */
 .bi,.bd{ 
     width: 350px;
 }
