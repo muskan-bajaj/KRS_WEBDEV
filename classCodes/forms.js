@@ -1,11 +1,9 @@
 // Defining a function to display error message
-
 function printError(elemId, hintMsg) {
   document.getElementById(elemId).innerHTML = hintMsg;
 }
 
 // Defining a function to validate form
-
 function validateForm() {
   // Retrieving the values of form elements
   var form = document.getElementById("myform");

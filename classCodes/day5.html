@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- animation -->
+    <!-- css for learning js animation -->
+    <!-- <style>
+      #container {
+        width: 400px;
+        height: 400px;
+        position: relative;
+        background-color: yellow;
+      }
+
+      #animate {
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        background-color: red;
+      }
+    </style> -->
+  </head>
+  <body>
+    <!-- method 1: write funtion and call the function in onCLick -->
+    <!-- <h1 id="id1">My Heading 1</h1>
+    <button type="button" onClick="change()">Click 1</button>
+    <script>
+      function change() {
+        document.getElementById("id1").style.margin = 0;
+        document.getElementById("id1").style.backgroundColor = "red";
+      }
+    </script> -->
+
+    <!-- method 2: write within onCLick -->
+    <!-- <h1 id="id1">My Heading 1</h1>
+    <button
+      type="button"
+      onClick="document.getElementById('id1').style.backgroundColor = 'red'"
+    >
+      Click 1
+    </button> -->
+
+    <!-- animation -->
+    <!-- html for learning js animation -->
+    <!-- <p><button onclick="myMove()">click me</button></p>
+    <div id="container">
+      <div id="animate"></div>
+    </div>
+
+    <script>
+      function myMove() {
+        let id = null;
+        var pos = 0;
+        const elem = document.getElementById("animate");
+        clearInterval(id);
+        // setInterval(funtionName, time in ms)
+        id = setInterval(frame, 5);
+        function frame() {
+          if (pos == 350) {
+            clearInterval(id);
+          } else {
+            pos++;
+            elem.style.top = pos + "px";
+            elem.style.left = pos + "px";
+          }
+        }
+      }
+    </script> -->
+
+    <!-- on change event -->
+    <!-- <h2>onChange event</h2>
+    <input type="text" id="name" onchange="upperCase()" />
+
+    <script>
+      function upperCase() {
+        const elem = document.getElementById("name");
+        elem.value = elem.value.toUpperCase();
+      }
+    </script> -->
+
+    <!-- event listener -->
+    <!-- <h1 id="id1">My Heading 1</h1>
+    <button type="button">Click Me!</button>
+
+    <script>
+      var elem = document.getElementById("id1");
+      //   addEventListener(event name, pointer of function)
+      elem.addEventListener("click", change);
+      elem.addEventListener("mouseover", change1);
+      elem.addEventListener("mouseout", change2);
+      function change() {
+        elem.style.color = "red";
+      }
+      function change1() {
+        elem.style.color = "green";
+      }
+      function change2() {
+        elem.style.color = "black";
+      }
+    </script> -->
+
+    <!-- adding elements using js -->
+    <!-- <div id="div1">
+      <p id="p1">This is a paragarph</p>
+      <p id="'p2">This is another paragraph</p>
+    </div>
+
+    <script>
+      // createElement(tag name)
+      // create object and returns it to the variable
+      const elementAlreadyExisting = document.getElementById("div1");
+      const para = document.createElement("p");
+      const new_node = document.createTextNode("This a new paragraph");
+      para.style.color = "red";
+      //adding html element/html node in the new object
+      //adds at the end
+      para.appendChild(new_node);
+      //adds in between where you want
+      const child = document.getElementById("p1");
+      //insertBefore(what to insert, before what)
+      elementAlreadyExisting.insertBefore(para, child);
+      elementAlreadyExisting.appendChild(para);
+    </script> -->
+
+    <!-- removing element -->
+    <!-- method 1: removechild()  -->
+    <!-- method 2: remove() -->
+
+    <!-- replace -->
+    <!-- <div id="div1">
+      <p id="p1">This is a paragarph</p>
+      <p id="p2">This is another paragraph</p>
+    </div>
+
+    <script>
+      const parent = document.getElementById("div1");
+      const child = document.getElementById("p1");
+      const para = document.createElement("p");
+      const node = document.createTextNode("NEW NEW NEW");
+      para.appendChild(node);
+      parent.replaceChild(para, child);
+    </script> -->
+
+    <!-- <button onclick="history()">Click Me!!</button> -->
+    <script src="closure.js">
+      //   function history() {
+      //     window.history.back();
+      //   }
+    </script>
+  </body>
+</html>
