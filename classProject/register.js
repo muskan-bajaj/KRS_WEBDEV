@@ -20,7 +20,8 @@ function validateRegister() {
   var name = register.name.value;
   var phone = register.phone.value;
   var email = register.email.value;
-  var gender = register.gender.value;
+  var gender = register.gender;
+  // var gender = register.gender.value;
   var qualification = register.qualification.value;
   var course = register.course.value;
   var country = register.country.value;
@@ -68,11 +69,18 @@ function validateRegister() {
     printError("emailErr", "");
   }
 
-  if (gender === "") {
-    printError("genderErr", "Please select your gender");
-  } else {
+  // if (gender === "") {
+  //   printError("genderErr", "Please select your gender");
+  // } else {
+  //   genderErr = false;
+  //   printError("genderErr", "");
+  // }
+
+  if (gender[0].checked || gender[1].checked) {
     genderErr = false;
     printError("genderErr", "");
+  } else {
+    printError("genderErr", "Please select your gender");
   }
 
   if (qualification === "") {

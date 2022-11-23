@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript | fetch() Method</title>
+  </head>
+  <body>
+    <script>
+      var user = {
+        name: "Muskan",
+        age: "21",
+        phone: "1234567890",
+      };
+      //   post request
+      //   api call
+      let fetchRes = fetch("http://localhost:8080/post", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json;charset=utf-8",
+        },
+        body: JSON.stringify(user),
+      });
+      //   function(res){
+      //     return res.json();
+      //   }
+      //   similar to res=>res.json()
+      fetchRes
+        .then((res) => res.json())
+        .then((d) => {
+          console.log(d);
+        });
+      // to see the message only we write d.message
+      // this is not common for all
+      // depends on the type of object returned to us
+    </script>
+  </body>
+</html>
