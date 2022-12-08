@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.main{
+    display: flex;
+    justify-content: space-around;
+    margin: 12px;
+}
+
+#red{
+    width: 50%;
+    height: 94vh;
+    background-color: red;
+    border-radius: 12px;
+    color: white;
+    font-size: large;
+}
+#blue{
+    width: 10%;
+    height: 94vh;
+    background-color: blue;
+    border-radius: 12px;
+    color: white;
+    font-size: large;
+}
+#green{
+    width: 10%;
+    height: 94vh;
+    background-color: green;
+    border-radius: 12px;
+    color: white;
+    font-size: large;
+}
+#yellow{
+    width: 10%;
+    height: 94vh;
+    background-color: yellow;
+    border-radius: 12px;
+    font-size: large;
+}
+#pink{
+    width: 10%;
+    height: 94vh;
+    background-color: pink;
+    border-radius: 12px;
+    font-size: large;
+}
